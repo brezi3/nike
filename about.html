@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>NIKE</title>
+    <link rel="icon" type="image/x-icon" href="images/FEVICON.png">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout head_posstinhi">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About</a>
+
+    </div>
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <!-- <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="images/nikeSwoosh.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <div class="right_bottun">
+                        <button class="openbtn" onclick="openNav()"><img src="images/menu_iconW.png" alt="#"/> </button> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>-->
+        <!-- end header inner -->
+        <!-- end header -->
+        <div class="red_bg">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>About
+                            <button class="openbtn" onclick="openNav()"><img src="images/menu_iconW.png" align="right" alt="#"/></button>
+
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about section -->
+        <div id="about" class="about afbecros">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div class="titlepage">
+
+                            <canvas id="myCanvas" width="500" height="300"></canvas>
+                            <script>
+                                var canvas = document.getElementById('myCanvas');
+                                var context = canvas.getContext('2d');
+
+                                context.beginPath();
+                                context.moveTo(121, 97.5); // y-coordinate decreased by 100
+                                context.bezierCurveTo(73, 231, 167, 171, 458, 98); // y-coordinate decreased by 100
+                                context.lineWidth = 1;
+
+                                // line color
+                                context.strokeStyle = 'black';
+                                context.stroke();
+
+                                context.beginPath();
+                                context.moveTo(120, 98); // y-coordinate decreased by 100
+                                context.bezierCurveTo(17, 208, 75, 266, 192, 214); // y-coordinate decreased by 100
+                                context.lineWidth = 1;
+
+                                // line color
+                                context.strokeStyle = 'black';
+                                context.stroke();
+
+                                context.beginPath();
+                                context.moveTo(459, 98.5); // y-coordinate decreased by 100
+                                context.bezierCurveTo(236, 196, 335, 152, 191.5, 214.3); // y-coordinate decreased by 100
+                                context.lineWidth = 1;
+
+                                // line color
+                                context.strokeStyle = 'black';
+                                context.stroke();
+                            </script>
+                            <p> Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. The company is headquartered
+                                near Beaverton, Oregon, in the Portland metropolitan area. It is one of the world's largest suppliers of athletic shoes and apparel and a major manufacturer of sports equipment, with revenue in excess of US$24.1 billion
+                                in its fiscal year 2012 (ending May 31, 2012). In 2014, the brand alone was valued at $19 billion, making it the most valuable brand among sports businesses. The company was founded on January 25, 1964, as Blue Ribbon Sports,
+                                by Bill Bowerman and Phil Knight, and officially became Nike, Inc. on May 30, 1971. The company takes its name from Nike, the Greek goddess of victory. </p>
+                            <a class="read_more" href="https://about.nike.com/en">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about section -->
+
+        <!--  footer -->
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <div class="fid_box">
+                                <ul class="location_icon">
+                                    <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> Los Angeles</li>
+                                    <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br>+01 1234567890
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> support@nike.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="dolor">
+                                <p>Thank you for visiting the Nike website. We hope you found everything you were looking for and more. Don't forget to check back frequently for new products and updates. Until next time, goodbye and keep reaching for your
+                                    goals!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>© 2019 All Rights Reserved. Design by<a> Aljaz Brezigar</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+        <!-- Javascript files-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <!-- sidebar -->
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+            function openNav() {
+                document.getElementById("mySidepanel").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidepanel").style.width = "0";
+            }
+        </script>
+</body>
+
+</html>
